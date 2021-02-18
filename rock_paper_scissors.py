@@ -1,5 +1,7 @@
 import random
 
+# Rock, Paper & Scissors
+
 choices = ['Rock', 'Paper', 'Scissors']
 user_match_score = 0
 com_match_score = 0
