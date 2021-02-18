@@ -1,2 +1,3 @@
-# rock_paper_scissors
-Basic terminal game of rock, paper &amp; scissors
+# Rock Paper Scissors game
+
+Basic terminal game of rock, paper & scissors
