@@ -5,20 +5,25 @@ import random
 choices = ['Rock', 'Paper', 'Scissors']
 user_match_score = 0
 com_match_score = 0
+match = True
+game_num = 0
 
-print("\n###############################################")
-print("Welcome to Woody's Rock, Paper, Scissors game.\nYou are playing WoodyAI, the computer player.")
-print("###############################################\n")
 
-print("RULES:")
-print("1. Choose best of battles in each game. Unlimited number of games in a match.")
-print("2. You have 3 choices - 'Rock', 'Paper', 'Scissors'")
-print("3. Rock beats Scissors / Scissors beats Paper / Paper beats Rock")
+def intro_text():
+    print("\n###############################################")
+    print("Welcome to Woody's Rock, Paper, Scissors game.\nYou are playing WoodyAI, the computer player.")
+    print("###############################################\n")
+
+    print("RULES:")
+    print("1. Choose best of battles in each game. Unlimited number of games in a match.")
+    print("2. You have 3 choices - 'Rock', 'Paper', 'Scissors'")
+    print("3. Rock beats Scissors / Scissors beats Paper / Paper beats Rock")
+
 
 # Establish how many battles in the game. Best of.
 
-match = True
-game_num = 0
+
+intro_text()
 
 while match == True:
     user_game_score = 0 
